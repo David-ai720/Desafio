@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #e6eff6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cuadros {
+    width: 700px;
+}
+
+.Tarjeta {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.10);
+}
+
+.Cabeza {
+    padding: 30px;
+}
+
+.Cabeza h2 {
+    color: #2ab2af;
+    margin-top: 10px;
+}
+
+.Descripcion {
+    color: #dbec86;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Texto {
+    color: #777;
+    line-height: 1.5;
+}
+
+.Cuerpo {
+    display: flex;
+    background: #2bb3b1;
+    color: white;
+    
+}
+
+.Precio {
+    font-size: 32px;
+    margin: 15px 10px;
+    
+}
+
+.Precio h3 {
+    font-size: 40px;
+    
+}
+
+.Precio span {
+    margin-top: 40px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.Texto-Secundario {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-left: 40px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: #bfdf32;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.Caracteristicas {
+    background: #4bbfbc;
+    padding: 30px;
+    width: 50%;
+    
+}
+
+.Caracteristicas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Caracteristicas li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .Cuerpo {
+        flex-direction: column;
+        margin-bottom: -50px;
+        
+    }
+
+    .Precio, .Caracteristicas {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        padding-left: 0;
+        list-style: none;
+    }
+}
+    
+
+   
+
+

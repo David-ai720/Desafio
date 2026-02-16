@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(233, 233, 233), white);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.Cabezas {
+    max-width: 1100px;
+    width: 100%;
+    padding: 40px;
+    
+}
+
+.Principal {
+    text-align: center;
+
+}
+
+.Principal h1 {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.Principal p{
+    text-align: center;
+    font-size: 16px;
+    color: #919191;
+    width: 550px;
+}
+.Botones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+    
+
+}
+
+.Boton {
+    padding: 14px 36px;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+.Izq {
+    
+    background: rgb(45, 180, 158);
+    box-shadow: 0 0 8px rgba(40, 186, 165)
+
+}
+
+.Drch {
+    background: #6174ff;
+    box-shadow: 0 0 8px rgba(96, 114, 253)
+    
+}
+
+.Parrafos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.Texto h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.Texto p {
+    color: #919191;
+    margin: 0 auto;
+    align-items: center;
+    width: 600px;
+}
+
+.Centro {
+    padding: 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.Centro img {
+    width:800px;
+    flex-shrink: 0;
+}
+
+.Parrafos {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Primero p {
+    width: 300px;
+    color: #919191;
+
+}
+
+.Segundo p {
+    width: 320px;
+    color: #919191;
+}
+
+.Tercero p {
+    width: 320px;
+    color: #919191;
+}
+
+.Texto2 {
+    text-align: center;
+    padding: 80px;
+}
+
+.Texto2 h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.Texto2 p {
+    margin: 0 auto;
+    width: 590px;
+    color: #919191;
+}
+
+.Imagen img{
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.Debajo {
+    text-align: center;
+    padding: 80px;
+}
+
+.Debajo h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.Debajo p {
+
+    color: #919191;
+}
+
+.Secundario {
+    display: flex;
+    padding: 80px;
+    gap: 100px;
+}
+
+.Debajo {
+    max-width: 100%;
+    text-align: center;
+}
+
+.Marcas {
+    display: flex;
+    gap: 200px;
+    width: 600px;
+    height: 60px;
+    opacity: 0.4;
+    
+}
+
+.Final {
+    text-align: center;
+    padding: 80px;
+}
+
+.Final h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.Final p {
+    color: #919191;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.Botones2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 80px;
+}
+
+.foot {
+    padding: 80px;
+    background: #f5f6f8;
+}
+
+.footer-all {
+    margin: auto;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+.footer-logo img {
+    width: 40px;
+    opacity: 0.8;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-menu a {
+    font-size: 15px;
+    color: #919191;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.footer-red {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    color: gray;
+}
+
+
+.footer-menu a:hover {
+    color: #0f172a;
+}
+
+@media (max-width: 768px) {
+    body {
+        justify-content: center;
+    }
+
+    .Cabezas {
+        width: 360px;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .Parrafo {
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    .Botones {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
+    
+}
+
+
+
+

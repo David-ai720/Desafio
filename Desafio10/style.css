@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+}
+
+.Preparacion {
+    background: white;
+    width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Ingredientes {
+    color: #3d3d3d;
+}
+.Ingredientes h3{
+    color: #793636;
+    font-size: 30px;
+
+}
+
+h2 {
+    color: #7b284f;
+    margin-top: 25px;
+    
+}
+
+.Tiempo {
+    padding: 5px 20px;
+    background: #fff7fc;
+    border-radius: 15px;
+    min-height: 200px;
+    color: #3d3d3d;
+}
+
+li {
+    margin-bottom: 20px;
+}
+.Descripcion {
+    color: #555;
+}
+
+.Instruccion {
+    color: #3d3d3d;
+}
+
+.Instruccion h3 {
+    color:#793636;
+    font-size: 30px;
+}
+
+ul, ol {
+    padding-left: 20px;
+
+}
+
+.Nutricion div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+}
+
+.Nutricion h3 {
+    color: #793636;
+    font-size: 30px;
+}
+
+.Nutricion p {
+    color: #3d3d3d;
+}
+
+.Nutricion div {
+    color: #3d3d3d;
+}
+
+.Nutricion span {
+    color: #793636;
+}
+

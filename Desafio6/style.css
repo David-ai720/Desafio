@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.Cuadro {
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: white;
+    
+}
+
+.Principal {
+    grid-column: 2 / span 2;
+    min-height: 260px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #7651dc;
+    color: white;
+    
+}
+
+.Titulo {
+    margin: 0;
+    line-height: 1.1;
+
+}
+
+.Titulo span {
+    display: block;
+    font-size: 32px;
+}
+
+.Titulo b {
+    color: #ffcd6a;
+}
+
+.Titulo .Segundo {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.Estrellas {
+    text-align: right;
+}
+
+.Estrella {
+    font-size: 22px;
+    letter-spacing: 20px;
+    margin-bottom: 10px;
+}
+
+.Subtexto {
+    font-size: 14px;
+    opacity: 0.85;
+    color: rgb(230, 229, 229);
+
+}
+
+.Secundario {
+    background: #faeee2;
+    grid-column: 1;
+    grid-row: 1 / span 5;
+   
+}
+
+.Secundario h3 {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.9;
+
+}
+
+.Secundario span {
+    color: #7651dc;
+    font-weight: bolder;
+}
+
+.Secundario button {
+    text-decoration: none;
+    border: none;
+    color:#7651dc;
+    background: #ffcc69;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Tercero {
+    background: #ffcc69;
+    grid-column: 1 / span 1;
+    grid-row: span 2;
+    min-height: 380px;
+    padding: 32px;
+}
+
+.Tercero h3 {
+    font-size: 32px;
+}
+
+.recuadro {
+    background: white;
+    min-height: 180px;
+    border-radius: 10px;
+
+}
+
+.circulo {
+    background: #ffcc69;
+    position: absolute;
+    left: 25.5%;
+    bottom: -10%;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    
+}
+
+.Cuarto {
+    background: #ffffff;
+    min-height: 220px;
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 3;
+
+}
+
+.Cuarto h3 {
+    text-align: center;
+    
+}
+
+.Quinto {
+    background: #ffffff;
+    grid-column: 2 / span 1;
+    grid-row: span 1;
+    
+    
+}
+
+.Quinto h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.Quinto p {
+    font-size: 15px;
+}
+
+.Sexto {
+    background: #ffcc69;
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 3;
+
+    
+}
+
+.Septimo {
+    display: flex;
+    text-align: right;
+    background: #7651dc;
+    grid-column: 3 / span 2;
+    grid-row: span 1;
+    
+}
+
+.Septimo h3 {
+    color: white;
+    font-size: 25px;
+    
+}
+.Octavo {
+    background: #dcd1fc;
+    display: flex;
+    flex-direction: column;
+    
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 6;
+}
+
+.Octavo h3 {
+    letter-spacing: -0.1px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Octavo p {
+    margin-top: auto;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+
+    .grid {
+        max-width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
+
+   

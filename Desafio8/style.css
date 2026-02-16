@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: white;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cabeza {
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.Principal {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Principal h2 {
+    font-weight: 800;
+}
+
+.Frente {
+    
+    color: #142e34;
+    text-align: center;
+    padding: 40px;
+}
+
+.Frente h3 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.Frente p {
+    margin: 0 auto;
+    font-size: 16px;
+    width: 450px;
+    
+}
+
+.Botone {
+    display: flex;
+    justify-content: center;
+}
+.Boton {
+    background-color: #fd53c0;
+    color: white;
+    padding: 14px 36px;
+    border-radius: 40px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+.Imagen img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.Numeros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.Comunidad img {
+    width: 50px;
+    margin-bottom: -20px;
+    
+}
+
+.Comunidad h3 {
+    color: #142e34;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.Comunidad p {
+    margin-top: 2px;
+    color: gray;
+    font-size: 15px;
+}
+
+.Descripciones {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 10%;
+
+}
+
+.Descripciones img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.Descripcion {
+    
+    max-width: 500px;
+}
+
+.Descripcion h3 {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.Descripcion p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.Reversa {
+    flex-direction: row-reverse;
+}
+
+.Final {
+    text-align: center;
+    padding: 80px;
+    
+}
+
+.Final h3 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.foot {
+    font-size: 15px;
+    background: #142e34;
+    color: white;
+    padding: 100px;
+
+}
+
+.Contacto img {
+    width: 45px;
+    height: auto;
+}
+
+.redes img {
+    width: 45px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .Cuerpo {
+        flex-direction: column;
+        margin-bottom: -50px;
+        
+    }
+
+    .Precio, .Caracteristicas {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        padding-left: 0;
+        list-style: none;
+    }
+}
+    
+
+    
+    }

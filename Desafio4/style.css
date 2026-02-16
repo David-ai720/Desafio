@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f2e8ff;
+    padding: 60px;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+}
+
+.Reseñas {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.Cabeza {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.Izquierda h1 {
+    font-size: 42px;
+    color: #511f50;
+    line-height: 1.1;
+}
+
+.Izquierda p {
+    color:#996098;
+    max-width: 400px;
+    
+}
+
+.Derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.Estrellas {
+    background: #d8bfdd;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.Estrellas:nth-child(1) {
+    margin-left: -100px;
+}
+
+.Estrellas:nth-child(2) {
+    margin-left: -50px;
+}
+
+.Estrellas:nth-child(3) {
+    margin-left: 0;
+}
+
+
+.Tarjetas {
+    display: flex;
+    gap: 25px;
+}
+
+.Tarjeta {
+    background: #511f50;
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    
+}
+
+.Tarjeta:nth-child(1) {
+    margin-top: 0px
+}
+
+.Tarjeta:nth-child(2) {
+    margin-top: 25px;
+}
+
+.Tarjeta:nth-child(3) {
+    margin-top: 50px;
+}
+
+
+.Usuario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.Usuario img {
+    border-radius: 50%;
+}
+
+.Usuario span {
+    display: block;
+    font-size: 13px;
+    color: hsl(282, 100%, 85%);
+}
+
+.Tarjeta p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .Cabeza {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .Derecha {
+        margin-right: -60px;
+        align-items: center;
+        
+    }
+
+    .Tarjetas {
+        flex-direction: column;
+    }
